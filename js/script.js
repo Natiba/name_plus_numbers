@@ -19,6 +19,10 @@
 //Insert another number, please
 //`);
 
+let h1 = document.getElementById("h1").innerHTML = `React Codo a Codo`;
+let h2 = document.getElementById("h2").innerHTML = `First practice Js`;
+let subtitle = document.getElementById("subtitle").innerHTML = `Let's ask for a name plus two numbers, and get the result of adding the length of the name plus both numbers`;
+
 /* ==== Functions ==== */
 
 function user() {
