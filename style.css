@@ -39,6 +39,7 @@ h2 {
     color: rgb(128, 140, 201);
     font-family: 'Ms Madi', cursive;
     font-size: 2em;
+    padding: 1%
 }
 
 button {
@@ -59,7 +60,7 @@ button:hover {
     font-size: .8em;
     padding: 1.7%;
     color: #e4c5c5a2;
-    box-shadow: 4px 4px #d49695a2;
+    box-shadow: 4px 4px rgb(142, 136, 152);
 }
 
 .btnName {
