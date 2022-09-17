@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Alumni+Sans+Pinstripe&family=Luckiest+Guy&family=Ms+Madi&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url(./img/back.jpeg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover; 
+    width: 100%;
+    height: 100vh
+}
+
+.container {
+    background-color: rgba(163, 195, 239, 0.496);
+    background-size: cover; 
+    width: 100%;
+    height: 100vh;
+    padding: 2%
+}
+
+h1, h2 {
+    text-align: center;
+}
+
+h1, button {
+    color: rgb(59, 71, 130);
+}
+
+h1 {
+    font-family: 'Luckiest Guy', cursive; 
+}
+
+h2 {
+    color: rgb(128, 140, 201);
+    font-family: 'Ms Madi', cursive;
+    font-size: 2em;
+}
+
+button {
+    width: 20%;
+    padding: 1.5%;
+    position: absolute;
+    left: 80px;
+    border-radius:15px;
+    font-size: 1.1em;
+    color: #fff;
+    background: rgb(59, 71, 130);
+    border: 2px solid rgb(59, 71, 130);
+    box-shadow: 4px 4px #7a8cdda2;
+}
+
+button:hover {
+    text-transform: uppercase;
+    font-size: .8em;
+    padding: 1.7%;
+    color: #e4c5c5a2;
+    box-shadow: 4px 4px #d49695a2;
+}
+
+.btnName {
+    top: 55%
+}
+
+.btnNumber1 {
+    top: 65%;
+}
+
+.btnNumber2 {
+    top: 75%;
+}
+
+.btnAnswer {
+    top: 85%
+}
+
+.subtitle, .answer {
+    font-size: 2.2em;
+    font-weight: bold;
+    color: rgb(72, 93, 197);
+}
+
+.answer {
+    color: rgb(175, 39, 39)
+}
